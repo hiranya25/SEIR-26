@@ -29,7 +29,6 @@ Scrape a given URL and extract structured information.
 
 * HTTP requests
 * HTML parsing
-* DOM traversal
 * Data extraction
 
 ---
