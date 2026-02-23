@@ -1,4 +1,4 @@
-Repository for all assignments and practical lab code related to the Software Engineering and Information Retrieval (SEIR) course.
+Repository for all assignments and practical lab code related to the Search Engine and Information Retrieval (SEIR) course.
 
 Purpose
 
