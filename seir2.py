@@ -70,34 +70,7 @@ def sim_hash(freq_dict):
         if vector[i] > 0:
             simhash |= (1 << i)
     return simhash
-# def sim_hash(freq_dict):
-#     vector = [0] * 64
-
-#     p = 53
-#     m = 2**64
-
-#     for word, count in freq_dict.items():
-#         hash_val = 0
-#         power = 1
-
-#         for ch in word:
-#             hash_val = (hash_val + ord(ch) * power) % m
-#             power = (power * p) % m
-
-#         for i in range(64):
-#             if hash_val & (1 << i):
-#                 vector[i] += count
-#             else:
-#                 vector[i] -= count
-
     
-#     simhash=0
-#     for i in range(64):
-#         if vector[i] > 0:
-#             simhash |= (1 << i)
-
-#     return simhash
-
 def common_bits(hash1, hash2):
     x = hash1 ^ hash2
     diff= bin(x).count('1')
