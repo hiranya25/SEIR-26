@@ -16,7 +16,7 @@ def main():
     else:
         print("Title not found")
 
-    if bs.body:
+    if bs.body is not None:
         body_text =bs.body.get_text(separator=" ",strip=True)
         print("Page Body:")
         print(body_text)
