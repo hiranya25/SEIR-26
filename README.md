@@ -10,7 +10,7 @@ The repository currently includes two Python-based projects focused on web data 
 
 ---
 
-## Project 1 – Web Scraper (`Project1.py`)
+## Project 1 – Web Scraper (`Scraper.py`)
 
 **Purpose:**
 Scrape a given URL and extract structured information.
@@ -58,7 +58,7 @@ Compare similarity between two web pages using SimHash.
 ## Repository Structure
 
 SEIR
-├── Project1.py
+├── Scraper.py
 ├── Project2.py
 └── README.md
 
@@ -80,7 +80,7 @@ SEIR
 Run Project 1:
 
 ```
-python Project1.py <url>
+python Scraper.py <url>
 ```
 
 Run Project 2:
