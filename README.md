@@ -33,7 +33,7 @@ Scrape a given URL and extract structured information.
 
 ---
 
-## Project 2 – SimHash Similarity (`Project2.py`)
+## Project 2 – SimHash Similarity (`simhash.py`)
 
 **Purpose:**
 Compare similarity between two web pages using SimHash.
@@ -59,7 +59,7 @@ Compare similarity between two web pages using SimHash.
 
 SEIR
 ├── Scraper.py
-├── Project2.py
+├── simhash.py
 └── README.md
 
 ---
@@ -86,7 +86,7 @@ python Scraper.py <url>
 Run Project 2:
 
 ```
-python Project2.py <url1> <url2>
+python simhash.py <url1> <url2>
 ```
 
 ---
